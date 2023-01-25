@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+
+    font-size: 2rem;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 250%;
+    color: goldenrod;
+}
+
+
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 250px;
+    background: goldenrod;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#content{
+    display: none;
+}
